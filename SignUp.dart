@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 
-void main(){
-  runApp(SignUp());
-}
+
 class SignUp extends StatelessWidget {
   const SignUp({super.key});
 
@@ -38,7 +36,7 @@ class SignUp extends StatelessWidget {
           ),
         ),
         body: Padding(
-          padding: EdgeInsets.all(16.0),
+          padding: EdgeInsets.all(16),
           child: RegistrationForm(),
         ),
       ),
